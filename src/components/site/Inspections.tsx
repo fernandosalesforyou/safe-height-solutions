@@ -20,9 +20,9 @@ export function Inspections() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Inspeções Linha de Vida"
-        title="Inspeções técnicas especializadas"
-        subtitle="Realizamos inspeções completas para garantir que os sistemas estejam seguros, funcionando corretamente e em conformidade com as normas vigentes."
+        eyebrow="Inspeções de linha de vida"
+        title="Inspeções Técnicas Especializadas"
+        subtitle="Além do desenvolvimento de projetos, realizamos inspeções para garantir que os sistemas permaneçam adequados às normas e em perfeito estado operacional."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {cards.map((c, i) => (
@@ -52,15 +52,15 @@ export function Anchors() {
   return (
     <Section tone="gray">
       <SectionTitle
-        eyebrow="Pontos de ancoragem"
-        title="Projeto, instalação e inspeção de ancoragem"
-        subtitle="Projetamos, instalamos e inspecionamos pontos de ancoragem conforme normas técnicas, garantindo segurança estrutural e proteção total para trabalhos em altura."
+        eyebrow="Ciclo completo de engenharia"
+        title="Projeto, Instalação e Inspeção de Linha de Vida"
+        subtitle="Entregamos o ciclo completo: do projeto executivo de linha de vida à instalação especializada e inspeção técnica de validação."
       />
       <div className="mt-14 grid gap-6 md:grid-cols-3">
         {[
-          { t: "Projeto técnico", d: "Dimensionamento estrutural com memorial de cálculo, ART e desenhos técnicos." },
-          { t: "Instalação certificada", d: "Execução por equipe qualificada, com materiais homologados e testes de carga." },
-          { t: "Inspeção periódica", d: "Verificação de integridade, fixação e conformidade conforme exigências da NR-35." },
+          { t: "Projeto Executivo", d: "Desenvolvimento técnico completo com análise estrutural, especificações e documentação." },
+          { t: "Instalação Especializada", d: "Execução realizada por equipe capacitada e em conformidade com as normas vigentes." },
+          { t: "Inspeção e Validação", d: "Avaliação do sistema para garantir desempenho, segurança e conformidade." },
         ].map((c) => (
           <div key={c.t} className="rounded-2xl border border-border bg-card p-8 shadow-sm hover:shadow-lg transition-shadow">
             <h3 className="text-xl font-semibold text-primary">{c.t}</h3>
@@ -79,18 +79,18 @@ export function NR35() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="NR-35"
-        title="Sua empresa está adequada à NR-35?"
-        subtitle="Toda atividade acima de 2 metros exige sistema de proteção contra quedas."
+        eyebrow="Conformidade normativa"
+        title="Seu Projeto Está Adequado à NR-35?"
+        subtitle="A NR-35 exige que sistemas de proteção contra quedas sejam projetados por profissionais legalmente habilitados e desenvolvidos conforme critérios técnicos específicos."
       />
       <div className="mt-12 mx-auto max-w-4xl rounded-2xl border-l-4 border-accent bg-secondary p-10 shadow-md">
-        <h3 className="text-2xl font-semibold text-primary">Principais exigências</h3>
+        <h3 className="text-2xl font-semibold text-primary">Principais exigências do projeto</h3>
         <ul className="mt-6 grid gap-4 sm:grid-cols-2">
           {[
-            "Sistema adequado ao risco",
-            "Projeto por profissional habilitado",
-            "Resistência certificada",
-            "Inspeções periódicas obrigatórias",
+            "Projeto executivo por engenheiro habilitado",
+            "Dimensionamento e cálculo estrutural",
+            "ART emitida junto ao CREA",
+            "Inspeções técnicas periódicas",
           ].map((e) => (
             <li key={e} className="flex gap-3 text-base text-foreground">
               <span className="mt-1 inline-flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground text-xs font-bold">✓</span>
@@ -99,7 +99,7 @@ export function NR35() {
           ))}
         </ul>
         <p className="mt-8 text-base text-muted-foreground">
-          A falta de adequação pode gerar multas, interdições e riscos graves à sua operação.
+          Um projeto inadequado pode comprometer a segurança dos trabalhadores e gerar responsabilidades civis, administrativas e trabalhistas.
         </p>
         <div className="mt-8 text-center">
           <CtaButton size="lg" />

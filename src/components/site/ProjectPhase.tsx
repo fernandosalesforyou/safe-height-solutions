@@ -12,9 +12,9 @@ export function ProjectPhase() {
   return (
     <Section tone="gray">
       <SectionTitle
-        eyebrow="Fase de projeto"
-        title="Etapas do desenvolvimento técnico"
-        subtitle="Antes da execução, estruturamos todo o projeto para garantir precisão, segurança e eficiência."
+        eyebrow="Etapas do desenvolvimento técnico"
+        title="Como Desenvolvemos Seu Projeto de Linha de Vida"
+        subtitle="Todo projeto de linha de vida inicia com análise técnica detalhada da estrutura, riscos envolvidos e necessidades operacionais da empresa."
       />
       <ol className="relative mt-14 mx-auto max-w-3xl">
         <span aria-hidden className="absolute left-5 top-2 bottom-2 w-px bg-accent/40 sm:left-1/2 sm:-translate-x-1/2" />
