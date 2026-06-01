@@ -24,8 +24,9 @@ export function Types() {
   return (
     <Section id="projeto" tone="white">
       <SectionTitle
-        eyebrow="Tipos de Linha de Vida"
-        title="Soluções completas em sistemas de proteção contra quedas"
+        eyebrow="Soluções em projetos de linha de vida"
+        title="Projetos para Diferentes Sistemas de Linha de Vida"
+        subtitle="Projetamos sistemas de proteção contra quedas para diferentes aplicações industriais, comerciais e corporativas."
       />
       <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {items.map((it, i) => (

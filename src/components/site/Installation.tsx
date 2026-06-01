@@ -24,9 +24,9 @@ export function Installation() {
   return (
     <Section tone="white">
       <SectionTitle
-        eyebrow="Implementação / Instalação"
-        title="Execução segura e eficiente"
-        subtitle="Realizamos a instalação com alto padrão técnico, garantindo segurança, rapidez e mínimo impacto na operação do cliente."
+        eyebrow="Execução do projeto"
+        title="Engenharia e Execução Segura"
+        subtitle="Após a aprovação do projeto, realizamos a implementação do sistema seguindo rigorosamente as especificações técnicas definidas na fase de engenharia."
       />
       <div className="mt-12 grid gap-10 lg:grid-cols-2 items-center">
         <div className="relative overflow-hidden rounded-2xl shadow-xl border border-border bg-card">
