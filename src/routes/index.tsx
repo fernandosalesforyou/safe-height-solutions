@@ -9,6 +9,9 @@ import { Installation } from "@/components/site/Installation";
 import { Special } from "@/components/site/Special";
 import { ProjectVideos, InspectionVideos } from "@/components/site/VideoBlock";
 import { Inspections, Anchors, NR35 } from "@/components/site/Inspections";
+import { Standards } from "@/components/site/Standards";
+import { Benefits } from "@/components/site/Benefits";
+import { Faq } from "@/components/site/Faq";
 import { ContactForm } from "@/components/site/ContactForm";
 import { Footer } from "@/components/site/Footer";
 import { FloatingWhatsApp } from "@/components/site/FloatingWhatsApp";
@@ -32,10 +35,13 @@ function Index() {
         <Installation />
         <Special />
         <ProjectVideos />
+        <Benefits />
         <Inspections />
         <InspectionVideos />
         <Anchors />
         <NR35 />
+        <Standards />
+        <Faq />
         <ContactForm />
       </main>
       <Footer />
